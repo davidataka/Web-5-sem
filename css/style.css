@@ -12,6 +12,18 @@
     color: #89B8CC;
     display: inline;
     height: auto;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: initial;
+}
+
+.nav__point a{
+    color: #89B8CC;
+    display: inline;
+    height: auto;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: initial;
 }
 
 
@@ -86,6 +98,10 @@
     height: auto;
 }
 
+.menu__point:hover{
+    color: green;
+}
+
 .img-block {
     display: flex;
     flex-wrap: wrap;
@@ -108,4 +124,14 @@
     .slogan{
         font-size: 12px;
     }
+}
+
+.active_button{
+    text-shadow: 5px 5px #000000;
+}
+
+#mouseTarget {
+    height: 100px;
+    width: 200px;
+    background-color: purple;
 }
