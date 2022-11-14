@@ -4,23 +4,22 @@
     <meta charset="utf-8"/>
     <meta name="description" content="ресторан Моветон в СПБ"/>
     <meta name="keywords" content="ресторан,моветон,Санкт-Петербург,СПБ"/>
-    <link href="outlines.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <title>ресторан "Моветон" в СПБ - главная</title>
 </head>
 <body>
-<header>
-    <nav>
-        <h3>Меню</h3>
-        <h3>Доставка</h3>
-        <h3>Новости</h3>
-        <h3>Акции</h3>
-        <h3>Мероприятия</h3>
+<header class="header">
+    <nav class="nav">
+        <h3 class="nav__point">Меню</h3>
+        <h3 class="nav__point">Доставка</h3>
+        <h3 class="nav__point">Новости</h3>
+        <h3 class="nav__point">Акции</h3>
+        <h3 class="nav__point">Мероприятия</h3>
     </nav>
 </header>
 <main>
-    <h1></h1>
-    <article>
-        <h2>Моветон - от души и для сердца</h2>
+    <article class="main_info">
+        <h2 class="logo">Моветон - от души и для сердца</h2>
         <p>Место в котором проводят время с кайфом: ломайте посуду
             , ругайтесь матом и курите в помещении.
             <i>
@@ -28,11 +27,14 @@
             </i>
         </p>
     </article>
-    <aside>
-        Краткий девиз нашего заведения, если говорить на современном:
-        <pre>
+    <aside class="slogan" >
+        <img width="140px" alt="" src="css/src/1.jpg" class="center-no-repeat">
+            <span class="slogan__text">
+                Краткий девиз нашего заведения, если говорить на современном:
+            </span>
+        <pre class="slogan__code">
             <code>
-        if (ты != совсем животное) {
+        if (ты != совсем дурной) {
             console.log('Добро пожаловать');
         }else {
             console.log('Не подходи к этой двери');
@@ -40,32 +42,32 @@
             </code>
         </pre>
     </aside>
-    <blockquote>
-        <p>Владей страстями, иначе страсти овладеют тобой</p>
-        <cite>Кама Bullet</cite>
+    <blockquote class="quote">
+        <p class="quote__text">Владей страстями, иначе страсти овладеют тобой</p>
+        <cite class="quote__author">Кама Bullet</cite>
     </blockquote>
     <section>
     </section>
 </main>
 <footer>
-    <div>
+    <div class="menu">
         <ul>
-            <li>Контакты</li>
-            <li>Соцсети</li>
-            <li>Рестораны</li>
+            <li class="menu__point">Контакты</li>
+            <li class="menu__point">Соцсети</li>
+            <li class="menu__point">Рестораны</li>
         </ul>
     </div>
-    <div>
+    <div class="menu">
         <ul>
-            <li>Оставить отзыв</li>
-            <li>Забронировать стол</li>
-            <li>Предложения</li>
+            <li class="menu__point">Оставить отзыв</li>
+            <li class="menu__point">Забронировать стол</li>
+            <li class="menu__point">Предложения</li>
         </ul>
     </div>
-    <div>
+    <div class="menu">
         <ul>
-            <li>Вакансии</li>
-            <li>Сотрудники</li>
+            <li class="menu__point">Вакансии</li>
+            <li class="menu__point">Сотрудники</li>
         </ul>
     </div>
     <pre>
