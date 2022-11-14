@@ -1,0 +1,73 @@
+.header{
+    background-color: #033A52;
+}
+
+.nav{
+    text-transform: lowercase;
+    display: inline-block;
+}
+
+.nav__point{
+    color: #89B8CC;
+    display: inline;
+    height: auto;
+}
+
+.main_info{
+    padding: 10px 0;
+    color: #6A8E9E;
+    text-align: right;
+}
+
+.logo{
+    font-family: Georgia, serif;
+    line-height: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.slogan{
+    display: block;
+    font-family: Georgia, serif;
+    margin: 0 40px;
+    box-shadow: 10px 5px 5px #8CA2BA;
+}
+
+.slogan__text{
+    padding: 10px 0;
+    color: #2C333B;
+}
+
+.slogan__code{
+    background-color: #598DC6;
+}
+
+.quote{
+    line-height: 10px;
+    font-size: small;
+}
+
+.quote__text{
+    font-size: 15px;
+}
+
+.quote__author{
+    text-decoration-line: underline;
+    color: #2C333B;
+}
+
+.footer{
+    font-family: system-ui;
+}
+
+.menu{
+    text-transform: lowercase;
+    display: inline-block;
+}
+
+.menu__point{
+    margin: 0 50px;
+    color: #89B8CC;
+    line-height: normal;
+    height: auto;
+}
