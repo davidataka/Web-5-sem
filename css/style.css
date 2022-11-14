@@ -1,4 +1,5 @@
 .header{
+    position: fixed;
     background-color: #033A52;
 }
 
@@ -13,17 +14,23 @@
     height: auto;
 }
 
+
+.nav__point:nth-child(2n){
+    color: #A046C7;
+}
+
 .main_info{
     padding: 10px 0;
     color: #6A8E9E;
     text-align: right;
+    font-size: 16px;
 }
 
 .logo{
     font-family: Georgia, serif;
     line-height: 10px;
     font-weight: bold;
-    font-size: larger;
+    font-size: 18px;
 }
 
 .slogan{
@@ -57,12 +64,19 @@
 }
 
 .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'contacts';
+    color: #020202;
+    text-align: center;
+    padding: 40px 0;
     font-family: system-ui;
 }
 
 .menu{
     text-transform: lowercase;
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 .menu__point{
@@ -70,4 +84,28 @@
     color: #89B8CC;
     line-height: normal;
     height: auto;
+}
+
+.img-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img__content_point {
+    height: 220px;
+    width: auto;
+    margin: 20px 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .main_info{
+        font-size: 10px;
+    }
+    .logo {
+        font-size: 12px
+    }
+    .slogan{
+        font-size: 12px;
+    }
 }
