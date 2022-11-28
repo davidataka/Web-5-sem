@@ -1,7 +1,7 @@
 (() => {
-    const startTime = Date.now();
+    const start_time = Date.now();
     window.addEventListener("load", () => {
-        const endTime = Date.now();
-        document.getElementById("time_load").innerText = `Load time - ${endTime - startTime} ms`;
+        const end_time = Date.now();
+        document.getElementById("time_load").innerText = `Load time - ${end_time - start_time} ms`;
     });
 })();
