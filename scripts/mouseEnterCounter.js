@@ -1,14 +1,13 @@
 var enterEventCount = 1;
 window.onload = function () {
-    const mouseTarget = document.getElementById("mouseTarget");
+    const mouse_target = document.getElementById("mouseTarget");
 
-    mouseTarget.addEventListener('mouseenter', (e) => {
-            e.target.style.backgroundColor = 'white';
+    mouse_target.addEventListener('mouseenter', (e) => {
+            e.target.style.backgroundColor = '#89B8CC';
             e.target.style.border = '5px blue';
-            e.target.innerText =` Enters count - ${enterEventCount}`
+            e.target.innerText =`${enterEventCount}`
             setTimeout(() => {
-                e.target.style.backgroundColor = 'purple';
-                e.target.style.border = '';
+                e.target.style.backgroundColor = '#89B8CC';
             }, 1000);
             enterEventCount++;
         }

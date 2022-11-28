@@ -1,6 +1,6 @@
 .header {
     position: fixed;
-    background-color: #033A52;
+    background:#89B8CC;
 }
 
 .nav {
@@ -9,20 +9,20 @@
 }
 
 .nav__point {
-    color: #89B8CC;
+    color: #053f60;
     display: inline;
     height: auto;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: initial;
 }
 
 .nav__point a {
-    color: #89B8CC;
+    color: #053f60;
     display: inline;
     height: auto;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: initial;
 }
 
@@ -147,10 +147,12 @@
 #mouseTarget {
     height: 100px;
     width: 200px;
-    background-color: purple;
+    background-color: #598DC6;
+
 }
 
 .form {
+    padding-top: 20px;
     font-family: Georgia, serif;
     color: #0b243b;
     font-size: 1rem;
@@ -173,7 +175,7 @@
     font-size: inherit;
     font-weight: inherit;
     color: #ffffff;
-    background: #368880;
+    background: #8d7bce;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -191,7 +193,7 @@
 .form__player {
     display: flex;
     font-size: 1rem;
-    background-color: rgba(29, 171, 158, 0.4);
+    background-color: #89B8CC;
     border-radius: 2px;
 }
 
@@ -199,7 +201,6 @@
     margin-left: auto;
     cursor: pointer;
 }
-
 .form__checkbox {
 
 }
@@ -220,4 +221,70 @@
 [form_option="completed"] .form__player:not([player_option="completed"]) {
     display: none;
 }
+
+.forum__logo{
+    color: #6A8E9E;
+    text-align: center;
+    font-size: 32px;
+}
+
+.forum__container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 32px;
+}
+
+.forum__text{
+    font-size: 1.3rem;
+    background-color: #89B8CC;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.forum__text-title{
+    text-align: center;
+    font-weight: 600;
+}
+
+.forum__text-body{
+    margin: 1px 10px;
+}
+
+.forum__text-author{
+    text-align: right;
+    margin: 1px 10px;
+}
+
+.forum__error{
+    margin: 0 30%;
+    text-align: center;
+    color: white;
+    background: #e82828;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+}
+
+.preloader__image {
+    background: url('src/preloader.gif') no-repeat 50% 50%;
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    left: 50%;
+    margin-top: -32px;
+    margin-left: -32px;
+}
+
 
