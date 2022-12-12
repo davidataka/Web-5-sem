@@ -5,6 +5,8 @@
     <meta name="description" content="ресторан Моветон в СПБ"/>
     <meta name="keywords" content="ресторан,моветон,Санкт-Петербург,СПБ"/>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/mainSwiper.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <script src="scripts/timeload.js"></script>
     <script src="scripts/mouseEnterCounter.js"></script>
     <title>ресторан "Моветон" в СПБ - главная</title>
@@ -55,8 +57,17 @@
         <p class="quote__text">Владей страстями, иначе страсти овладеют тобой</p>
         <cite class="quote__author">Кама Bullet</cite>
     </blockquote>
-    <section>
-    </section>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="img__content_point" src="css/src/6.jpg"></div>
+            <div class="swiper-slide"><img class="img__content_point" src="css/src/7.jpg"></div>
+            <div class="swiper-slide"><img class="img__content_point" src="css/src/8.jpg"></div>
+            <div class="swiper-slide"><img class="img__content_point" src="css/src/9.jpg"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+    </div>
 </main>
 <footer class="footer">
     <div class="menu">
@@ -88,6 +99,8 @@
       <p id="time_load"></p>
         <div id="mouseTarget">mouse enter</div>
     </pre>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="scripts/mainSwiper.js"></script>
 </footer>
 </body>
 </html>
